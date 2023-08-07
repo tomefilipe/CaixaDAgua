@@ -6,6 +6,8 @@ void setup() {
   wifi.begin(SSID, WifiPassword);
 
   pinMode(RESET_WIFI_PIN, INPUT);
+
+  Serial.println("Wifi Ok!");
 }
 
 void loop() {
